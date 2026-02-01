@@ -1,0 +1,120 @@
+Anuhya Paturu
+Full Stack Engineer
+Email: paturuanuhya@gmail.com Mobile: +1 562-446-5186 Place: United States
+
+SUMMARY:
+
+Experienced Full Stack Engineer with 2+ years of hands-on expertise in designing and developing scalable web applications using
+.NET, Node.js, React, Angular, and SQL or PostgreSQL. Proficient in building end-to-end solutions, optimizing APIs, and
+implementing secure authentication using JWT and OAuth. Improved system efficiency and reduced dashboard load times by up to
+40% across many projects. Collaborated in Agile teams, streamlining workflows and enhancing application performance. Delivered
+strong, user-centric solutions that drive business impact and operational excellence.
+
+TECHNICAL SKILLS:
+
+Programming Languages: Python, Java, C, C++, C#, Golang, JavaScript, TypeScript
+Frontend Technologies & Frameworks: HTML, CSS, Bootstrap, Angular, Angular Material, React.js, Node.js
+Backend Frameworks: ASP.NET, .NET Core, Spring Boot, Flask, Django, FastAPI
+API & Integration Technologies: RESTful APIs, GraphQL
+Authentication & Authorization: JWT, OAuth 2.0, Role-Based Access Control (RBAC)
+Databases: SQL, SQL Server, MySQL, PostgreSQL, MongoDB
+Cloud Platforms & Services: AWS, EC2, Lambda, RDS, S3, Azure, Functions, App Services
+DevOps Tools: Docker, Kubernetes, Terraform, Helm, Jenkins, GitHub Actions, Azure DevOps, CI/CD Automation
+Testing & Quality Assurance: PyTest, NUnit, SQL Unit Testing, Selenium, Playwright, Cypress
+Data Analysis & Manipulation: Pandas, NumPy, Data Wrangling
+Machine Learning & Model Development: Scikit-learn, Feature Engineering, Model Development & Tuning
+Data Visualization Tools: Matplotlib, Seaborn, Plotly, Power BI
+Data Science Tools & Notebooks:
+Version Control: Git, GitHub, GitLab
+Development & IDE Tools: Visual Studio Code, Jupyter Notebook
+API Development & Testing Tools: Postman, Swagger
+Methodologies & Project Management: Agile, Scrum, JIRA
+Software Tools: Microsoft Word, PowerPoint, Excel, Outlook, SharePoint
+
+
+PROFESSIONAL EXPERIENCE :
+
+Saayam For All Full Stack Engineer
+August 2025 – Present
+
+Engineered scalable end-to-end web features using React, HTML, CSS, and REST APIs, improving donor and beneficiary
+workflows and increasing successful donations by 35%.
+Developed backend services with Node.js and PostgreSQL, enabling real-time donation tracking and campaign
+management, improving system efficiency.
+Streamlined API performance and database operations by implementing caching and query optimization, reducing system
+latency during high-traffic donation periods by 30%.
+Partnered with a 6-member cross-functional team using Scrum and JIRA, translating requirements into user-friendly features
+and ensuring reliable, timely platform releases.
+Enhanced platform security by implementing JWT-based authentication, improving data protection and user trust across
+donor and beneficiary systems.
+
+Cognizant Technology Solutions 
+
+Full Stack Engineer
+August 2022 – July 2023
+
+Modernized the CXO Dashboard using .NET, Angular, and SQL, enhancing UI responsiveness and reducing page load
+times by 30%.
+Designed optimized APIs to improve real-time data retrieval and system reliability, enabling faster analytics for executive
+insights.
+Resolved performance bottlenecks in backend services by refactoring queries and streamlining data pipelines, improving
+data fetch efficiency by 25%.
+Collaborated with QA engineers and release managers to identify testing gaps and improve product quality, ensuring
+smoother production deployments.
+Enhanced legacy modules by introducing modular design and code refactoring using .NET and Angular, improving
+maintainability and reducing debugging time by 20%.
+
+Junior Full Stack Engineer August 2021 – July 2022
+
+Implemented 6+ critical features for the CXO Dashboard, enhancing data visualization, report generation, and overall system efficiency.
+by 40%.
+Optimized ERD and database schema, improving PostgreSQL/SQL Server performance and reducing dashboard load times
+Transformed legacy SQL stored procedures into optimized, scalable data models, resolving performance bottlenecks and
+improving application stability.
+Coordinated with QA and product teams to integrate APIs with external services, ensuring robust data synchronization and
+seamless system interoperability.
+Streamlined dashboard workflows by implementing reusable components and modular design using .NET and Angular,
+reducing development effort and future maintenance time by 20%.
+
+Software Intern February 2021 – July 2021
+
+Developed a Portfolio Management System using React.js, Flask, PHP, SQL, and GraphQL APIs, enabling real-time
+financial data tracking and improving reporting efficiency by 35%.
+Secured role-based authentication and authorization with JWT and OAuth, enhancing application security and compliance
+with best practices across all user roles.
+Enhanced front-end layouts using React/JSX, HTML, and CSS, ensuring responsive design, cross-device compatibility, and
+improved user experience metrics.
+Collaborated with a small development team to integrate RESTful services and GraphQL APIs, improving data retrieval
+flexibility for many client applications.
+Engineered backend services and API integrations using Flask and GraphQL, streamlining data workflows and reducing
+client-side data fetch time by 25%.
+
+PROJECTS
+
+1. CXO Dashboard
+Technologies: ASP.NET, C .NET, .NET Framework 4.5, SQL, Angular, Kubernetes, AWS, Microservices, REST APIs
+Built a SaaS dashboard for Cognizant & CVS, integrating ServiceNow workflows with 99.5% accuracy and scaling services via AWS + Kubernetes.
+Optimized SQL queries and APIs with caching/rate limiting, reducing refresh latency by 30% and boosting user engagement by 25%.
+
+2. Portfolio Management System
+Technologies: Python, Flask, SQL, JavaScript, React, AWS, REST APIs, GraphQL
+Developed full-stack investment tracker with Flask REST APIs, React.js UI, and real-time financial data integration.
+Implemented SQLAlchemy Code-First schema and role-based authentication, reducing DB setup time by 50% and unauthorized access by 60%.
+
+3. Restaurant Revenue Prediction
+Technologies: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Jupyter Notebook
+Built ML models (Random Forest, Gradient Boosting, Linear Regression) with extensive preprocessing (imputation, feature engineering, outlier
+handling), improving prediction accuracy of restaurant revenue by 18%.
+Optimized hyperparameters using GridSearchCV with cross-validation and created visualizations to uncover demographic and location factors
+influencing revenue, achieving a competitive Kaggle leaderboard score.
+
+EDUCATION
+Master of Science in Computer Science
+California State University, Long Beach, USA August 2023 – May 2025
+
+
+HOBBIES: love to draw, go for a hike, listen to music
+
+my strengths :
+my weekness :
+
