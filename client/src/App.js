@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   MessageCircle, X, Send, Cpu, Code, Briefcase, 
-  GraduationCap, Mail, Linkedin, Github, Phone, MapPin, Database, Cloud, Calendar, Menu, ExternalLink, Info 
+  GraduationCap, Mail, Github, Phone, MapPin, Database, Cloud, Calendar, Menu, ExternalLink, Info 
 } from 'lucide-react';
 import './App.css';
 
@@ -138,7 +138,7 @@ function App() {
               <a href="#schedule" className="schedule-cta"><Calendar size={20} /> Schedule Interview</a>
               <div className="social-links">
                 <a href="https://github.com/AnuhyaPaturu" target="_blank" rel="noreferrer"><Github size={24} /></a>
-                <a href="https://linkedin.com/in/anuhyap" target="_blank" rel="noreferrer"><Linkedin size={24} /></a>
+                
               </div>
             </div>
             <div className="contact-bar">
