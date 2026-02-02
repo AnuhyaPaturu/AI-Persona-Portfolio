@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   MessageCircle, X, Send, Cpu, Code, Briefcase, 
-  GraduationCap, Mail, Github, Phone, MapPin, Database, Cloud, Calendar, Menu, Info 
+  GraduationCap, Mail, Github, Phone, MapPin, Database, Cloud, Calendar, Menu, ExternalLink, Info 
 } from 'lucide-react';
 import './App.css';
 
@@ -56,7 +56,7 @@ function App() {
       }, 400); 
       return () => clearTimeout(timer);
     }
-  }, [isOpen],[initialMessages]);
+  }, [isOpen]);
 
   // Auto-scroll to bottom of AI chat
   useEffect(() => {
@@ -81,7 +81,7 @@ function App() {
     }
 
     try {
-      const response = await fetch('https://anuhya-ai-server.onrender.com/api/chat', {
+      const response = await fetch('http://localhost:5000/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: query }),
