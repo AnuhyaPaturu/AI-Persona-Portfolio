@@ -37,7 +37,7 @@ function App() {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/github-projects');
+        const response = await fetch('https://sorry-fayth-self-employee-907f0163.koyeb.app/api/github-projects');
         const data = await response.json();
         setProjects(data);
       } catch (err) {
