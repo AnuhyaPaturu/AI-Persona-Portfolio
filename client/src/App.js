@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   MessageCircle, X, Send, Cpu, Code, Briefcase, 
-  GraduationCap, Mail, Github, Phone, MapPin, Database, Cloud, Calendar, Menu, ExternalLink, Info 
+  GraduationCap, Mail, Github, Phone, MapPin, Database, Cloud, Calendar, Menu, Info 
 } from 'lucide-react';
 import './App.css';
 
@@ -56,7 +56,7 @@ function App() {
       }, 400); 
       return () => clearTimeout(timer);
     }
-  }, [isOpen]);
+  }, [initialMessages]);
 
   // Auto-scroll to bottom of AI chat
   useEffect(() => {
