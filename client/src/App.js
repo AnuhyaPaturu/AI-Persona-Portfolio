@@ -81,7 +81,7 @@ function App() {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/chat', {
+      const response = await fetch('https://sorry-fayth-self-employee-907f0163.koyeb.app/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: query }),
