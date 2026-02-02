@@ -56,7 +56,7 @@ function App() {
       }, 400); 
       return () => clearTimeout(timer);
     }
-  }, [initialMessages]);
+  }, [isOpen],[initialMessages]);
 
   // Auto-scroll to bottom of AI chat
   useEffect(() => {
