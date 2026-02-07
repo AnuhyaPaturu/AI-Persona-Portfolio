@@ -4,6 +4,7 @@ import {
   GraduationCap, Mail, Linkedin, Github, Phone, MapPin, Database, Cloud, Calendar, Menu, ExternalLink, Info 
 } from 'lucide-react';
 import './App.css';
+import RoleMatcher from './components/RoleMatcher'; 
 
 // Importing Visual Components
 import TechArchitecture from './components/TechArchitecture';
@@ -155,6 +156,13 @@ function App() {
             </div>
             <div className="character-glow-orb"></div>
           </div>
+        </div>
+      </section>
+
+      {/* --- ROLE MATCHER SECTION --- */}
+      <section className="section match-section">
+        <div className="container mx-auto px-4">
+          <RoleMatcher />
         </div>
       </section>
 

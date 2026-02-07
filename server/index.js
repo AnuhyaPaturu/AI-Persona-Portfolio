@@ -104,6 +104,29 @@ app.get('/api/github-projects', async (req, res) => {
   }
 });
 
+
+// Add this to your server/index.js
+app.post('/api/match-role', async (req, res) => {
+  try {
+    const { description } = req.body;
+    if (!description) return res.status(400).json({ error: "No JD provided" });
+
+    const response = await openai.chat.completions.create({
+      model: "gpt-4o-mini",
+      messages: [
+        { role: "system", content: "You are a recruiter. Match Anuhya Paturu's MS CS background to this job description." },
+        { role: "user", content: `Job Description: ${description}` }
+      ],
+    });
+    res.json({ analysis: response.choices[0].message.content });
+  } catch (error) {
+    console.error("Internal Error:", error);
+    res.status(500).json({ error: "Server Internal Error" });
+  }
+});
+
 // Production Port Configuration
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server is live and running on port ${PORT}`));
+const PORT = process.env.PORT || 8000;
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
+});
