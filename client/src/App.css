@@ -649,3 +649,41 @@ body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* Circular Score Badge */
+.score-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #22d3ee;
+  background: rgba(34, 211, 238, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.2);
+  flex-shrink: 0;
+}
+
+.score-num {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #22d3ee;
+  line-height: 1;
+}
+
+.score-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.result-header-area {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 15px;
+}
