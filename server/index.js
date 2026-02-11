@@ -114,7 +114,15 @@ app.post('/api/match-role', async (req, res) => {
     const response = await openai.chat.completions.create({
       model: "gpt-4o-mini",
       messages: [
-        { role: "system", content: "You are a recruiter. Match Anuhya Paturu's MS CS background to this job description." },
+        { role: "system", content: `You are a technical recruiting expert. 
+          Analyze Anuhya Paturu's resume (MS in CS, Full-Stack Engineer) and the projects in github against the provided Job Description.
+          
+          STRICT OUTPUT FORMAT:
+          Line 1: SCORE: [number]
+          Followed by a concise professional analysis highlighting her strengths and project fit.
+          
+          Ensure the score reflects her 2+ years of experience and specific expertise in React, Node.js, and AIOps.`
+        },
         { role: "user", content: `Job Description: ${description}` }
       ],
     });

@@ -139,7 +139,7 @@ function App() {
               <a href="#schedule" className="schedule-cta"><Calendar size={20} /> Schedule Interview</a>
               <div className="social-links">
                 <a href="https://github.com/AnuhyaPaturu" target="_blank" rel="noreferrer"><Github size={24} /></a>
-                <a href="https://linkedin.com/in/anuhyap" target="_blank" rel="noreferrer"><Linkedin size={24} /></a>
+                <a href="https://www.linkedin.com/in/anuhya-paturu-574513287" target="_blank" rel="noreferrer"><Linkedin size={24} /></a>
               </div>
             </div>
             <div className="contact-bar">
