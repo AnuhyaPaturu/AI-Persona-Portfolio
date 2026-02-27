@@ -134,7 +134,7 @@ function App() {
         <div className="hero-container">
           <div className="hero-content">
             <h1>Anuhya <span>Paturu</span></h1>
-            <p>Experienced Full Stack Engineer with 2+ years of expertise in designing and developing scalable web applications. Master of Science in Computer Science candidate at CSULB.</p>
+            <p>Experienced Full Stack Engineer with 3+ years of expertise in designing and developing scalable web applications. Master of Science in Computer Science candidate at CSULB.</p>
             <div className="hero-action-area">
               <a href="#schedule" className="schedule-cta"><Calendar size={20} /> Schedule Interview</a>
               <div className="social-links">
@@ -159,13 +159,7 @@ function App() {
         </div>
       </section>
 
-      {/* --- ROLE MATCHER SECTION --- */}
-      <section className="section match-section">
-        <div className="container mx-auto px-4">
-          <RoleMatcher />
-        </div>
-      </section>
-
+      
       {/* --- PROJECTS GALLERY SECTION --- */}
       <section id="projects" className="section">
         <h2 className="section-title"><Code size={28} /> Technical Projects</h2>
@@ -297,6 +291,14 @@ function App() {
           <span className="edu-date">Aug 2023 - May 2025</span>
         </div>
       </section>
+
+      {/* --- ROLE MATCHER SECTION --- */}
+      <section className="section match-section">
+        <div className="container mx-auto px-4">
+          <RoleMatcher />
+        </div>
+      </section>
+
 
       {/* --- SCHEDULING SECTION --- */}
       <section id="schedule" className="section">
